@@ -59,4 +59,7 @@ group :development, :test do
 
   # WebMock for testing [https://github.com/bblimke/webmock]
   gem "webmock"
+
+  # Shoulda Matchers for testing [https://matchers.shoulda.io/]
+  gem "shoulda-matchers"
 end
