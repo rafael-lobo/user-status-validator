@@ -48,7 +48,15 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
+  # Factory Bot for testing [https://github.com/thoughtbot/factory_bot_rails]
   gem "factory_bot_rails"
 
+  # RSpec for testing [https://rspec.info/]
   gem "rspec-rails"
+
+  # FFaker for testing [https://github.com/ffaker/ffaker]
+  gem "ffaker"
+
+  # WebMock for testing [https://github.com/bblimke/webmock]
+  gem "webmock"
 end
