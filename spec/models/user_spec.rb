@@ -10,12 +10,12 @@ RSpec.describe User, type: :model do
 
   describe "enum flexibility" do
     it "supports banned status" do
-      expect{ User.new(idfa: "test-idfa", ban_status: "banned").save! }.not_to raise_error
+      expect { User.new(idfa: "test-idfa", ban_status: "banned").save! }.not_to raise_error
     end
 
     it "supports not_banned status" do
-      expect{ User.new(idfa: "test-idfa", ban_status: "not_banned").save! }.not_to raise_error
-    end 
+      expect { User.new(idfa: "test-idfa", ban_status: "not_banned").save! }.not_to raise_error
+    end
 
     it "defaults to not_banned status" do
       user = User.new(idfa: "test-idfa")
