@@ -65,4 +65,7 @@ group :development, :test do
 
   # Redis for caching [https://github.com/redis/redis-rb]
   gem "redis"
+
+  # Load environment variables from .env file
+  gem "dotenv-rails"
 end
