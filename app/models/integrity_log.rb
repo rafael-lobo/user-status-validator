@@ -1,3 +1,3 @@
 class IntegrityLog < ApplicationRecord
-    validates :idfa, presence: true
+    validates :idfa, :ban_status, :ip, presence: true
 end
