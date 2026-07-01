@@ -62,4 +62,7 @@ group :development, :test do
 
   # Shoulda Matchers for testing [https://matchers.shoulda.io/]
   gem "shoulda-matchers"
+
+  # Redis for caching [https://github.com/redis/redis-rb]
+  gem "redis"
 end
